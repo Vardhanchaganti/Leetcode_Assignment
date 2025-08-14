@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: absolute;
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+}
+#cen{
+    position: relative;
+    top: 170px;
+    left: 550px;
+    width: 60vw;
+}
+#container{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    max-height: 50vh;
+    border:2px solid black;
+    max-width: 25vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#verify{
+    background-color: gray;
+    height: 40px;
+    width: 255px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#credentials{
+    height: 35px;
+    width: 255px;
+}
+button{
+    height: 35px;
+    width: 255px;
+    background-color: skyblue;
+}
+a{
+    padding: 50px;
+}
